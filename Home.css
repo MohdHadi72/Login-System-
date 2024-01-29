@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Charm:wght@400;700&family=Cinzel+Decorative:wght@400;700;900&family=Dosis:wght@200..800&family=Homemade+Apple&family=Italianno&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kaushan+Script&family=Merienda:wght@300..900&family=Oranienbaum&family=Rubik+Doodle+Shadow&family=Satisfy&family=Tangerine:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Dosis", sans-serif;
+  box-sizing: border-box;
+}
+body {
+  background-color: #e4e9f7;
+}
+
+#bodyFonst #main {
+  max-width: 1200px;
+
+  margin-top: 5%;
+  margin-left: 13%;
+  background-color: #fff;
+  padding: 26px;
+  border-radius: 10px;
+}
+#main h1 {
+  font-size: 3rem;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  margin-bottom: 4%;
+  margin-left: 3%;
+}
+.maintable {
+  margin-top: 5%;
+}
+
+#header {
+  text-align: center;
+  color: #333;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+#bodyFonst form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  margin-left: 0.5%;
+}
+
+form input,
+form button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  border: none;
+  background-color: rgb(236, 234, 234);
+  border-radius: 9px;
+}
+input::placeholder{
+  font-weight: 600;
+
+}
+
+#bodyFonst form input[type="radio"] {
+  width: auto;
+  display: flex;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 9px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(232, 229, 229);
+  /* font-size: 20px; */
+}
+
+#bodyFonst table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+#bodyFonst table th,
+table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+  text-align: center;
+}
+
+#bodyFonst table tr button {
+  background-color: rgb(76, 68, 182, 0.888);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  transition: all 0.3s;
+  border-radius: 4px;
+  padding: 9px;
+  font-weight: 600;
+}
+
+#bodyFonst #textItem {
+  display: flex;
+  font-size: 20px;
+  margin-bottom: 3%;
+
+}
+
+#bodyFonst form button {
+  background-color: rgb(76, 68, 182, 0.888);
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s;
+  border-radius: 4px;
+  padding: 9px;
+  font-weight: 600;
+  margin-bottom: 3%;
+}
+.modal {
+  min-width: 900px;
+}
+
+.nav-item a {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.boxCont {
+  margin: auto;
+  background-color: #333;
+  border-radius: 10px;
+}
+
+.message{
+  display: flex;
+}
